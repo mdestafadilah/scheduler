@@ -33,7 +33,7 @@ jobs:
 
     strategy:
       matrix:
-        node: [24, 25]
+        node: [25, 26]
 
     steps:
       - uses: actions/checkout@v6
