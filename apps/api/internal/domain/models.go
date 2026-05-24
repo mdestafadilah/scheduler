@@ -133,7 +133,6 @@ func NewID() string {
 	if err != nil {
 		return ""
 	}
-	//nolint:gosec
 	if id[0] >= 248 { // Exclude '-' and '_'
 		id[0] -= 248
 	}
